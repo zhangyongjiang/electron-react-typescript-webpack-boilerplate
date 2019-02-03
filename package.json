@@ -1,6 +1,6 @@
 {
   "name": "electron-react-typescript-webpack-boilerplate",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Pre-configured boilerplate for Electron + React + TypeScript",
   "main": "./dist/main.bundle.js",
   "scripts": {
@@ -22,14 +22,13 @@
       "target": "nsis",
       "asar": false
     },
-    "buildVersion": "1.1.0"
+    "buildVersion": "1.0.0"
   },
-  "author": "Wing Chau",
+  "author": "Wing Chau @Devtography",
   "license": "MIT",
   "dependencies": {
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
-    "electron": "^3.1.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
@@ -41,6 +40,7 @@
     "ajv": "^6.6.2",
     "copy-pkg-json-webpack-plugin": "0.0.38",
     "css-loader": "^1.0.1",
+    "electron": "^3.1.2",
     "electron-builder": "^20.38.5",
     "eslint": "^5.3.0",
     "eslint-config-airbnb": "^17.1.0",
