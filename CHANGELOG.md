@@ -5,8 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+- Typos on release date of `v2.0.0` & `v2.0.1`.
+- URL of CHANGELOG section "Unreleased".
 
-## [2.0.1] - 2018-02-05
+## [2.0.1] - 2019-02-05
 `v2.0.1` is a minor hotfix release patched the `NODE_ENV` not set on Windows 
 issue.
 
@@ -17,7 +20,7 @@ issue.
 ### Fixed
 - NPM scripts won't set environment variables on Windows issue.
 
-## 2.0.0 - 2018-02-04
+## 2.0.0 - 2019-02-04
 `v2.0.0` is a major release that most part of the boilerplate has been rewritten.
 
 ### Added
@@ -66,5 +69,5 @@ issue.
     isn't based on this boilerplate.
 - Separated Webpack config files for `development` & `production` mode.
 
-[Unreleased]: https://github.com/Devtography/electron-react-typescript-webpack-boilerplate/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/Devtography/electron-react-typescript-webpack-boilerplate/compare/v2.0.1...develop
 [2.0.1]: https://github.com/Devtography/electron-react-typescript-webpack-boilerplate/compare/v2.0.0...v2.0.1
